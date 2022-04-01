@@ -1,0 +1,2 @@
+CREATE TABLE books(id SERIAL PRIMARY KEY,title VARCHAR(100),author VARCHAR(50),pages integer, type_book VARCHAR(20),summary text);
+INSERT INTO books(title,author,pages,type_book,summary) VALUES ('how to become a pro','hesham amoudi',50,'educational','web developer');
